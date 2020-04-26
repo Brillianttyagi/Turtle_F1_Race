@@ -1,4 +1,5 @@
-from turtle import*
+from turtle import *
+from random import randint
 title('Turtle F1 race')
 speed(10)
 penup()
@@ -15,21 +16,21 @@ for x in range(6):
     backward(160)
     left(90)
     forward(y)
-t1 = turtle()
+t1 = Turtle()
 t1.penup()
 t1.goto(-260,200)
-t1.colour('red')
+t1.color('red')
 t1.shape('turtle')
-t2 = turtle()
+t2 = Turtle()
 t2.penup()
 t2.goto(-260,150)
-t2.colour('Black')
+t2.color('Black')
 t2.shape('turtle')
 
-t3 = turtle()
+t3 = Turtle()
 t3.penup()
 t3.goto(-260,100)
-t3.colour('Green')
+t3.color('Green')
 t3.shape('turtle')
 
 for t in range(50):
